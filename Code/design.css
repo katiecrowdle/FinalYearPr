@@ -1,0 +1,92 @@
+/* Main page colours */
+body {
+    background-color: #1DA1F2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+    
+
+p {
+    background-color: white;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+/*  <<<<< Search Bar >>>>>>> */
+
+input {
+    width: 88%;
+  }
+
+/* Add a white background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    width: 98%;
+    border: solid;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=search] {
+    float: left;
+    padding: 10px;
+    border: solid;
+    width: 87%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+
+ 
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=search] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 0.5px solid #ccc;
+    }
+  }
+
+
